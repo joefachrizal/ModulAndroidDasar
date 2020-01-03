@@ -3,7 +3,7 @@ package com.android.cnd.latihandelapan.model;
 /**
  * * Written by @JoeFachrizal 25/12/2019 4:16.
  **/
-public class mahasiswa {
+public class Mahasiswa {
     private String name;
     private String photo;
 
