@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Intent;
 import android.content.res.TypedArray;
 import android.os.Bundle;
 import android.widget.Toast;
@@ -38,18 +39,25 @@ public class DataMahasiswaActivity extends AppCompatActivity {
             @Override
             public void onItemClicked(Mahasiswa data) {
                 Toast.makeText(DataMahasiswaActivity.this, "Hello " + data.getName(), Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(DataMahasiswaActivity.this, DetailActivity.class);
+                intent.putExtra("NAME", data.getName());
+                intent.putExtra("DESC", data.getDescription());
+                intent.putExtra("PHOTO", data.getPhoto());
+                startActivity(intent);
             }
         });
     }
 
     private ArrayList<Mahasiswa> getListMahasiswa() {
         String[] dataName = getResources().getStringArray(R.array.data_name_mhs);
+        String[] dataDesc = getResources().getStringArray(R.array.data_description);
         TypedArray dataPhoto = getResources().obtainTypedArray(R.array.data_foto_mhs);
 
         ArrayList<Mahasiswa> listMhs = new ArrayList<>();
         for (int i = 0; i < dataName.length; i++) {
             Mahasiswa mhs = new Mahasiswa();
             mhs.setName(dataName[i]);
+            mhs.setDescription(dataDesc[i]);
             mhs.setPhoto(dataPhoto.getResourceId(i, 0));
 //            cara setnya kalo lewat java
 //            mhs.setPhoto(image_ids[i]);

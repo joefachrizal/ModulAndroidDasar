@@ -14,7 +14,8 @@
     </dist:module>
 
     <application>
-        <activity android:name=".DataMahasiswaActivity"></activity>
+        <activity android:name=".DetailActivity"></activity>
+        <activity android:name=".DataMahasiswaActivity" />
     </application>
 
 </manifest>

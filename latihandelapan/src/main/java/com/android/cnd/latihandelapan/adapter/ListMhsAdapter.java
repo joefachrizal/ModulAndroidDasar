@@ -44,10 +44,11 @@ public class ListMhsAdapter extends RecyclerView.Adapter<ListMhsAdapter.CardView
 
         Glide.with(holder.itemView.getContext())
                 .load(mahasiswa.getPhoto())
-                .apply(new RequestOptions().override(55, 55))
+                .apply(new RequestOptions().override(200, 200))
                 .into(holder.imgPhoto);
 
         holder.tvName.setText(mahasiswa.getName());
+        holder.tvDesc.setText(mahasiswa.getDescription());
 
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -65,11 +66,13 @@ public class ListMhsAdapter extends RecyclerView.Adapter<ListMhsAdapter.CardView
     class CardViewViewHolder extends RecyclerView.ViewHolder {
         private final ImageView imgPhoto;
         private final TextView tvName;
+        private final TextView tvDesc;
 
         CardViewViewHolder(@NonNull View itemView) {
             super(itemView);
             imgPhoto = itemView.findViewById(R.id.img_item_photo);
             tvName = itemView.findViewById(R.id.item_name);
+            tvDesc = itemView.findViewById(R.id.item_desc);
         }
     }
 
