@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="text_nama">nama</string>
+
+    <string-array name="data_name_mhs">
+        <item>Naya</item>
+        <item>Atik</item>
+        <item>Irham</item>
+        <item>Dewi</item>
+        <item>Manda</item>
+        <item>Haura</item>
+        <item>Dwi</item>
+    </string-array>
+
+    <integer-array name="data_foto_mhs">
+        <item>@drawable/foto</item>
+        <item>@drawable/foto</item>
+        <item>@drawable/foto</item>
+        <item>@drawable/foto</item>
+        <item>@drawable/foto</item>
+        <item>@drawable/foto</item>
+        <item>@drawable/foto</item>
+    </integer-array>
+</resources>

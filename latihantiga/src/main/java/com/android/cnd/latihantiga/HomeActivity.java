@@ -9,7 +9,6 @@ import android.widget.Toast;
 import com.android.cnd.pertemuan1.base.BaseSplitActivity;
 
 public class HomeActivity extends BaseSplitActivity implements View.OnClickListener {
-
     Button biodata;
 
     @Override

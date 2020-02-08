@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     String dynamicModuleClassName = "";
     String toastText = "";
 
-    private Button latihanSatu, latihanDua, latihanTiga, latihanEmpat, latihanLima, latihanEnam, latihanTujuh;
+    private Button latihanSatu, latihanDua, latihanTiga, latihanEmpat, latihanLima, latihanEnam, latihanTujuh , latihanDelapan;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,6 +40,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         latihanLima = findViewById(R.id.task_tree_one);
         latihanEnam = findViewById(R.id.task_tree_two);
         latihanTujuh = findViewById(R.id.task_five_one);
+        latihanDelapan = findViewById(R.id.task_six_one);
     }
 
     /*ini untuk Mengaktifkan Button*/
@@ -51,6 +52,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         latihanLima.setOnClickListener(this);
         latihanEnam.setOnClickListener(this);
         latihanTujuh.setOnClickListener(this);
+        latihanDelapan.setOnClickListener(this);
     }
 
     @Override
@@ -83,6 +85,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.task_five_one:
                 toastText = "Modul Latihan 6";
                 dynamicModuleClassName = "com.android.cnd.latihantujuh.HomeActivity";
+                break;
+            case R.id.task_six_one:
+                toastText = "Modul Latihan 8";
+                dynamicModuleClassName = "com.android.cnd.latihandelapan.DataMahasiswaActivity";
                 break;
         }
         Toast.makeText(this, toastText, Toast.LENGTH_SHORT).show();
