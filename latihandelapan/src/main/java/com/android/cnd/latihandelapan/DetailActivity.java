@@ -26,6 +26,10 @@ public class DetailActivity extends AppCompatActivity {
             tvName.setText(name);
             tvDesc.setText(desc);
             ivPhoto.setImageResource(picture);
+
+            if (getSupportActionBar() != null) {
+                getSupportActionBar().setTitle("Detail Mahasiswa : " + name);
+            }
         }
 
     }

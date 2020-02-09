@@ -93,6 +93,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
         Toast.makeText(this, toastText, Toast.LENGTH_SHORT).show();
         Intent intent = new Intent().setClassName(packageNameModule, dynamicModuleClassName);
+        intent.putExtra("TITLE_NAME", toastText);
         startActivity(intent);
     }
 }

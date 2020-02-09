@@ -23,6 +23,11 @@ public class DataMahasiswaActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_data_mahasiswa);
 
+        String title = getIntent().getStringExtra("TITLE_NAME");
+        if (getSupportActionBar() != null) {
+            getSupportActionBar().setTitle(title);
+        }
+
         rvMahasiswa = findViewById(R.id.rv_mahasiswa);
         rvMahasiswa.setHasFixedSize(true);
 
