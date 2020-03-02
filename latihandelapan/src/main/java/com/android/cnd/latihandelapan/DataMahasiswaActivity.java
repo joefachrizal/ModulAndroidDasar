@@ -40,16 +40,13 @@ public class DataMahasiswaActivity extends AppCompatActivity {
         ListMhsAdapter listMhsAdapter = new ListMhsAdapter(listMhs);
         rvMahasiswa.setAdapter(listMhsAdapter);
 
-        listMhsAdapter.setOnItemClickCallback(new ListMhsAdapter.OnItemClickCallback() {
-            @Override
-            public void onItemClicked(Mahasiswa data) {
-                Toast.makeText(DataMahasiswaActivity.this, "Hello " + data.getName(), Toast.LENGTH_SHORT).show();
-                Intent intent = new Intent(DataMahasiswaActivity.this, DetailActivity.class);
-                intent.putExtra("NAME", data.getName());
-                intent.putExtra("DESC", data.getDescription());
-                intent.putExtra("PHOTO", data.getPhoto());
-                startActivity(intent);
-            }
+        listMhsAdapter.setOnItemClickCallback(data -> {
+            Toast.makeText(DataMahasiswaActivity.this, "Hello " + data.getName(), Toast.LENGTH_SHORT).show();
+            Intent intent = new Intent(DataMahasiswaActivity.this, DetailActivity.class);
+            intent.putExtra("NAME", data.getName());
+            intent.putExtra("DESC", data.getDescription());
+            intent.putExtra("PHOTO", data.getPhoto());
+            startActivity(intent);
         });
     }
 

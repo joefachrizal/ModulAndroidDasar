@@ -67,7 +67,7 @@ public class BalokActivity extends AppCompatActivity implements View.OnClickList
             inputTinggi.setError("Tidak boleh Kosong");
         }
         if (!isEmpty) {
-            double volumeBalok = Double.valueOf(panjang) * Double.valueOf(lebar) * Double.valueOf(tinggi);
+            double volumeBalok = Double.parseDouble(panjang) * Double.parseDouble(lebar) * Double.parseDouble(tinggi);
             hasil.setText(String.valueOf(volumeBalok));
         }
     }
