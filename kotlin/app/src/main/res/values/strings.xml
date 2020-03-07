@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Praktikum Mobile</string>
+    <string name="title_latihansatu">Latihan Satu</string>
+    <string name="title_latihandua">Latihan Dua</string>
+    <string name="title_latihantiga">Latihan Tiga</string>
+    <string name="title_latihanempat">Latihan Empat</string>
+    <string name="title_latihanlima">Latihan Lima</string>
+    <string name="title_latihanenam">Latihan Enam</string>
+    <string name="title_latihantujuh">Latihan Tujuh</string>
+    <string name="title_latihandelapan">Latihan Delapan</string>
+</resources>

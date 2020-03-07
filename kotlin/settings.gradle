@@ -1,0 +1,2 @@
+include ':app', ':latihansatu', ':latihandua', ':latihantiga', ':latihanempat', ':latihanlima', ':latihanenam', ':latihantujuh', ':latihandelapan'
+rootProject.name='Pertemuan 1'

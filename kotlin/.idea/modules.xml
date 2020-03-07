@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Pertemuan 1.iml" filepath="$PROJECT_DIR$/Pertemuan 1.iml" group="Pertemuan 1" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="Pertemuan 1/app" />
+      <module fileurl="file://$PROJECT_DIR$/latihandelapan/latihandelapan.iml" filepath="$PROJECT_DIR$/latihandelapan/latihandelapan.iml" group="Pertemuan 1/latihandelapan" />
+      <module fileurl="file://$PROJECT_DIR$/latihandua/latihandua.iml" filepath="$PROJECT_DIR$/latihandua/latihandua.iml" group="Pertemuan 1/latihandua" />
+      <module fileurl="file://$PROJECT_DIR$/latihanempat/latihanempat.iml" filepath="$PROJECT_DIR$/latihanempat/latihanempat.iml" group="Pertemuan 1/latihanempat" />
+      <module fileurl="file://$PROJECT_DIR$/latihanenam/latihanenam.iml" filepath="$PROJECT_DIR$/latihanenam/latihanenam.iml" group="Pertemuan 1/latihanenam" />
+      <module fileurl="file://$PROJECT_DIR$/latihanlima/latihanlima.iml" filepath="$PROJECT_DIR$/latihanlima/latihanlima.iml" group="Pertemuan 1/latihanlima" />
+      <module fileurl="file://$PROJECT_DIR$/latihansatu/latihansatu.iml" filepath="$PROJECT_DIR$/latihansatu/latihansatu.iml" group="Pertemuan 1/latihansatu" />
+      <module fileurl="file://$PROJECT_DIR$/latihantiga/latihantiga.iml" filepath="$PROJECT_DIR$/latihantiga/latihantiga.iml" group="Pertemuan 1/latihantiga" />
+      <module fileurl="file://$PROJECT_DIR$/latihantujuh/latihantujuh.iml" filepath="$PROJECT_DIR$/latihantujuh/latihantujuh.iml" group="Pertemuan 1/latihantujuh" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".BalokActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title_balok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="16dp"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Masukan Nilai Panjang" />
+
+        <EditText
+            android:id="@+id/input_panjang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="masukan nilai"
+            android:inputType="number" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Masukan Nilai Lebar" />
+
+        <EditText
+            android:id="@+id/input_lebar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="masukan nilai"
+            android:inputType="number" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Masukan Nilai Tinggi" />
+
+        <EditText
+            android:id="@+id/input_tinggi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="masukan nilai"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/btn_proses"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Proses"
+            android:textAllCaps="false" />
+
+        <TextView
+            android:id="@+id/hasil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:background="#DBDBDB"
+            android:padding="8dp"
+            android:text="Kolom Hasil"
+            android:textAlignment="center" />
+    </LinearLayout>
+</ScrollView>
