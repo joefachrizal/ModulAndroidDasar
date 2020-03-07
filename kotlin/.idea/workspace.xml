@@ -14,26 +14,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7875d952-2d64-4404-8738-bb874c615ccf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/latihanlima/src/main/java/com/android/cnd/latihanlima/BalokActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/latihanlima/src/main/java/com/android/cnd/latihanlima/BiodataActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/latihanlima/src/main/java/com/android/cnd/latihanlima/HomeActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/latihansatu/src/main/java/com/android/cnd/latihansatu/BiodataActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/latihantiga/src/main/java/com/android/cnd/latihantiga/BiodataActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/latihantiga/src/main/java/com/android/cnd/latihantiga/HomeActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/latihantujuh/src/main/java/com/android/cnd/latihantujuh/BiodataConstrainActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/latihantujuh/src/main/java/com/android/cnd/latihantujuh/BiodataLinearActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/latihantujuh/src/main/java/com/android/cnd/latihantujuh/BiodataRelativeActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/latihantujuh/src/main/java/com/android/cnd/latihantujuh/HomeActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/latihanlima/src/main/java/com/android/cnd/latihanlima/BalokActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/latihanlima/src/main/java/com/android/cnd/latihanlima/BiodataActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/latihanlima/src/main/java/com/android/cnd/latihanlima/HomeActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/latihansatu/src/main/java/com/android/cnd/latihansatu/BiodataActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/latihantiga/src/main/java/com/android/cnd/latihantiga/BiodataActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/latihantiga/src/main/java/com/android/cnd/latihantiga/HomeActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/latihantujuh/src/main/java/com/android/cnd/latihantujuh/BiodataConstrainActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/latihantujuh/src/main/java/com/android/cnd/latihantujuh/BiodataLinearActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/latihantujuh/src/main/java/com/android/cnd/latihantujuh/BiodataRelativeActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/latihantujuh/src/main/java/com/android/cnd/latihantujuh/HomeActivity.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/latihandelapan/src/main/java/com/android/cnd/latihandelapan/DataMahasiswaActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/latihandelapan/src/main/java/com/android/cnd/latihandelapan/DetailActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/latihandelapan/src/main/java/com/android/cnd/latihandelapan/adapter/ListMhsAdapter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/latihandelapan/src/main/java/com/android/cnd/latihandelapan/model/Mahasiswa.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/latihandua/src/main/java/com/android/cnd/latihandua/BiodataActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/latihanempat/src/main/java/com/android/cnd/latihanempat/BalokActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/latihanempat/src/main/java/com/android/cnd/latihanempat/BiodataActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/latihanempat/src/main/java/com/android/cnd/latihanempat/HomeActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/latihanenam/src/main/java/com/android/cnd/latihanenam/BalokActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/latihanenam/src/main/java/com/android/cnd/latihanenam/BiodataActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/latihanenam/src/main/java/com/android/cnd/latihanenam/HomeActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/latihandelapan/latihandelapan.iml" beforeDir="false" afterPath="$PROJECT_DIR$/latihandelapan/latihandelapan.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/latihandelapan/src/main/java/com/android/cnd/latihandelapan/DataMahasiswaActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/latihandelapan/src/main/java/com/android/cnd/latihandelapan/DetailActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/latihandelapan/src/main/java/com/android/cnd/latihandelapan/adapter/ListMhsAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/latihandelapan/src/main/java/com/android/cnd/latihandelapan/model/Mahasiswa.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/latihandua/latihandua.iml" beforeDir="false" afterPath="$PROJECT_DIR$/latihandua/latihandua.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/latihandua/src/main/java/com/android/cnd/latihandua/BiodataActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/latihanempat/latihanempat.iml" beforeDir="false" afterPath="$PROJECT_DIR$/latihanempat/latihanempat.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/latihanempat/src/main/java/com/android/cnd/latihanempat/BalokActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/latihanempat/src/main/java/com/android/cnd/latihanempat/BiodataActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/latihanempat/src/main/java/com/android/cnd/latihanempat/HomeActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/latihanenam/latihanenam.iml" beforeDir="false" afterPath="$PROJECT_DIR$/latihanenam/latihanenam.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/latihanenam/src/main/java/com/android/cnd/latihanenam/BalokActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/latihanenam/src/main/java/com/android/cnd/latihanenam/BiodataActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/latihanenam/src/main/java/com/android/cnd/latihanenam/HomeActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/latihanlima/latihanlima.iml" beforeDir="false" afterPath="$PROJECT_DIR$/latihanlima/latihanlima.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/latihanlima/src/main/java/com/android/cnd/latihanlima/BalokActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/latihanlima/src/main/java/com/android/cnd/latihanlima/BalokActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/latihansatu/latihansatu.iml" beforeDir="false" afterPath="$PROJECT_DIR$/latihansatu/latihansatu.iml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -219,16 +230,5 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/latihandelapan/src/main/java/com/android/cnd/latihandelapan/adapter/ListMhsAdapter.java</url>
-          <line>45</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

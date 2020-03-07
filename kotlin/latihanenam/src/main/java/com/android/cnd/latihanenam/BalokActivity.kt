@@ -1,4 +1,4 @@
-package com.android.cnd.latihanlima
+package com.android.cnd.latihanenam
 
 import android.os.Bundle
 import android.text.TextUtils
@@ -15,7 +15,7 @@ class BalokActivity : AppCompatActivity(), View.OnClickListener {
     private lateinit var inputPanjang: EditText
     private lateinit var inputLebar: EditText
     private lateinit var inputTinggi: EditText
-    private var title: String? = ""
+    private var title : String? = ""
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -29,6 +29,15 @@ class BalokActivity : AppCompatActivity(), View.OnClickListener {
         title = intent.getStringExtra("KEY_TITLE")
         titleActivity.text = title
         btnProses.setOnClickListener(this)
+        if (savedInstanceState != null) {
+            val result = savedInstanceState.getString(STATE_RESULT)
+            hasil.text = result
+        }
+    }
+
+    override fun onSaveInstanceState(outState: Bundle) {
+        super.onSaveInstanceState(outState)
+        outState.putString(STATE_RESULT, hasil.text.toString())
     }
 
     override fun onClick(v: View) {
@@ -49,8 +58,12 @@ class BalokActivity : AppCompatActivity(), View.OnClickListener {
             inputTinggi.error = "Tidak boleh Kosong"
         }
         if (!isEmpty) {
-            val volumeBalok = java.lang.Double.valueOf(panjang) * java.lang.Double.valueOf(lebar) * java.lang.Double.valueOf(tinggi)
+            val volumeBalok = panjang.toDouble() * lebar.toDouble() * tinggi.toDouble()
             hasil.text = volumeBalok.toString()
         }
+    }
+
+    companion object {
+        private const val STATE_RESULT = "state_result"
     }
 }
